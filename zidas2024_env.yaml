@@ -1,0 +1,12 @@
+name: zidas2024
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - scikit-image
+  - numpy
+  - napari
+  - pyqt
+  - jupyter
+  
