@@ -66,9 +66,9 @@ __MacOS/Linux:__ `cd Downloads/python_setup`
 
 Now we can create the environment with conda from the respective lock-file. Please make sure that you choose the lock-file which fits to your operating system:
 * Windows: `conda create -n zidas2024 --file conda-win-64.lock`
-* MacOS: `conda create -n zidas2024 conda-osx-64.lock`
-* MacOS Apple Silicon e.g. M1/M2: `conda create -n zidas2024 conda-osx-arm64.lock`
-* Linux: `conda create -n zidas2024 conda-linux-64.lock`
+* MacOS: `conda create -n zidas2024 --file conda-osx-64.lock`
+* MacOS Apple Silicon e.g. M1/M2: `conda create -n zidas2024 --file conda-osx-arm64.lock`
+* Linux: `conda create -n zidas2024 --file conda-linux-64.lock`
 
 Executing this command might take some time, but once it finishes you should see the following:
 ```
