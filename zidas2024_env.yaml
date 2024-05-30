@@ -9,4 +9,8 @@ dependencies:
   - napari
   - pyqt
   - jupyter
+  - pip:
+      - napari-crop
+      - napari-skimage
+      - napari-skimage-regionprops
   
