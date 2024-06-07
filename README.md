@@ -1,8 +1,10 @@
-# Python Setup
+# Image Quantification 101
+
+## Python Setup
 
 To ensure a smooth start into the Python session at ZIDAS 2024 we require you to prepare a conda environment. A conda environment is a special directory which contains all required dependencies to run Python and follow the planned Python session. Luckily you don't have to create this environment by hand. We will use the conda package manager to build the environment. If you have anaconda or miniforge already installed on your computer you can skip the first part and directly move on to the environment creation. Otherwise follow the miniforge install instructions first.
 
-## Install miniforge
+### Install miniforge
 Miniforge is our recommended environment manager for Python environments. Please download the version which fits your operation system from [here](https://github.com/conda-forge/miniforge?tab=readme-ov-file#download) and follow the respective install instructions:
 * [Windows](https://github.com/conda-forge/miniforge?tab=readme-ov-file#windows)
 * [MacOS with Homebrew](https://github.com/conda-forge/miniforge?tab=readme-ov-file#homebrew)
@@ -50,7 +52,7 @@ commands:
 
 ```
 
-## Create ZIDAS2024 Environment
+### Create ZIDAS2024 Environment
 Download the Python setup material from [here]() and unpack it. You should see the following files:
 * conda-linux-64.lock
 * conda-osx-64.lock
@@ -86,3 +88,16 @@ napari
 ```
 
 This should open the napari viewer after a little bit of waiting time. 
+
+## To cite
+If you use the exercise notebooks from this tutorial, please acknowledge it as follows:
+
+Buchholz, T.-O., Witz, G., Uhlmann, V. (2024). Image Quantification 101 Tutorial. github.com/uhlmanngroup/imagequantification101
+
+## Further resources
+* Miura, K. & Sladoje, N. (2020). Bioimage Data Analysis Workflows. doi.org/10.1007/978-3-030-22386-1
+* Bankhead, P. (2022). Introduction to Bioimage Analysis. bioimagebook.github.io
+* Holmes, S. & Huber, W. (2018). Modern Statistics for Modern Biology. www.huber.embl.de/msmb
+
+## Acknowledgements
+Part of the material from this tutorial was adapted from Paula Balcells' Bachelor Thesis work carried out in the Uhlmann group.
