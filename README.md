@@ -62,6 +62,7 @@ Downlaod this GitHub repository:
 From inside your open terminal or Minifroge Prompt change into the unpacked directory. If you extracted the setup material in your `Downloads` directory you would now change to `Downloads/imagequantification101-main`.
 
 __Windows:__ `dir Downloads/imagequantification101-main`
+
 __MacOS/Linux:__ `cd Downloads/imagequantification101-main`
 
 Now we can create the environment with conda from the `zidas2024_env.yaml` file. Run the following command:
