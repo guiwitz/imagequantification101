@@ -53,24 +53,21 @@ commands:
 ```
 
 ### Create ZIDAS2024 Environment
-Download the Python setup material from [here]() and unpack it. You should see the following files:
-* conda-linux-64.lock
-* conda-osx-64.lock
-* conda-osx-arm64.lock
-* conda-win-64.lock
+Downlaod this GitHub repository:
+![download_zip](./git-download-zip.png)
+1. Click on the green `Code` button.
+2. Click on `Download ZIP`.
+3. Unpack the downloaded ZIP file.
 
-These are solved environment lock files containing a explicit list of packages and versions which we want to be installed in our environment. You can open them with a text editor (e.g. notepad), but you must not edit them!
+From inside your open terminal or Minifroge Prompt change into the unpacked directory. If you extracted the setup material in your `Downloads` directory you would now change to `Downloads/imagequantification101-main`.
 
-Now you want to change to the directory where you put the `.lock` files. If you extracted the setup material in your `Downloads` directory you would now change to `Downloads/python_setup`.
+__Windows:__ `dir Downloads/imagequantification101-main`
+__MacOS/Linux:__ `cd Downloads/imagequantification101-main`
 
-__Windows:__ `dir Downloads/python_setup`
-__MacOS/Linux:__ `cd Downloads/python_setup`
-
-Now we can create the environment with conda from the respective lock-file. Please make sure that you choose the lock-file which fits to your operating system:
-* Windows: `conda create -n zidas2024 --file conda-win-64.lock`
-* MacOS: `conda create -n zidas2024 --file conda-osx-64.lock`
-* MacOS Apple Silicon e.g. M1/M2: `conda create -n zidas2024 --file conda-osx-arm64.lock`
-* Linux: `conda create -n zidas2024 --file conda-linux-64.lock`
+Now we can create the environment with conda from the `zidas2024_env.yaml` file. Run the following command:
+```commandline
+conda env create -f zidas2024_env.yaml
+```
 
 Executing this command might take some time, but once it finishes you should see the following:
 ```
