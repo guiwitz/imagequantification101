@@ -55,15 +55,16 @@ commands:
 ### Create ZIDAS2024 Environment
 Downlaod this GitHub repository:
 ![download_zip](./git-download-zip.png)
-1. Click on the green `Code` button.
-2. Click on `Download ZIP`.
-3. Unpack the downloaded ZIP file.
+1. Make sure that you have the zidas-2024 branch selected.
+2. Click on the green `Code` button.
+3. Click on `Download ZIP`.
+4. Unpack the downloaded ZIP file.
 
-From inside your open terminal or Minifroge Prompt change into the unpacked directory. If you extracted the setup material in your `Downloads` directory you would now change to `Downloads/imagequantification101-main`.
+From inside your open terminal or Minifroge Prompt change into the unpacked directory. If you extracted the setup material in your `Downloads` directory you would now change to `Downloads/imagequantification101-zidas-2024`.
 
-__Windows:__ `dir Downloads/imagequantification101-main`
+__Windows:__ `dir Downloads/imagequantification101-zidas-2024`
 
-__MacOS/Linux:__ `cd Downloads/imagequantification101-main`
+__MacOS/Linux:__ `cd Downloads/imagequantification101-zidas-2024`
 
 Now we can create the environment with conda from the `zidas2024_env.yaml` file. Run the following command:
 ```commandline
