@@ -62,7 +62,7 @@ Downlaod this GitHub repository:
 
 From inside your open terminal or Minifroge Prompt change into the unpacked directory. If you extracted the setup material in your `Downloads` directory you would now change to `Downloads/imagequantification101-zidas-2024`.
 
-__Windows:__ `dir Downloads\imagequantification101-zidas-2024`
+__Windows:__ `cd Downloads\imagequantification101-zidas-2024`
 
 __MacOS/Linux:__ `cd Downloads/imagequantification101-zidas-2024`
 
